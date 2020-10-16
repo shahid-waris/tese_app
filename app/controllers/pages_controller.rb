@@ -4,4 +4,16 @@ class PagesController < ApplicationController
 
     def about
     end
+    def new
+    end
+     
+    def create 
+    end  
+    def show 
+        @articles=Article.all
+
+    end
+    def index
+
+    end
 end
